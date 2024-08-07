@@ -51,9 +51,7 @@ export default function Watch(props: { name: string }) {
 			<Fail error={error()} />
 			<canvas ref={canvas} class="aspect-video w-full rounded-lg" />
 			<Show when={isAudioButtonVisible()}>
-				<button onClick={play} class="mt-2 rounded bg-blue-500 p-2 text-white">
-					Play Audio
-				</button>
+				<button onClick={play} class="m-0 p-0 bg-[#00bfa6] text-white rounded-sm">&#9658;</button>
 			</Show>
 		</>
 	)
